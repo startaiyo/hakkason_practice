@@ -119,8 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-GITHUB_OAUTH_CLIENT_ID = '3ceb42af849c26aa58eb'
-GITHUB_OAUTH_SECRET = '6f293ca4303a1645ac13ca1df3878b0b671d7074'
+
 GITHUB_OAUTH_CALLBACK_URL = "/"
 GITHUB_OAUTH_SCOPES = []
 
