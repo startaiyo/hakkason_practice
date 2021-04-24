@@ -11,5 +11,4 @@ urlpatterns = [
     path('callback/', GithubOAuthCallbackView.as_view(),name='callback'),
     path('login/', GithubOAuthLoginView.as_view(),name='login'),
     path('logout/', LogoutView.as_view(next_page=settings.LOGOUT_REDIRECT_URL if settings.LOGOUT_REDIRECT_URL else '/'),name='logout'),
-    path('user/',views.index,name="user"),
 ]
